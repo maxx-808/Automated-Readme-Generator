@@ -48,6 +48,30 @@ inquirer
   .then((res) => {
     console.log(res);
 
+    let readMe = `
+# ${res.titleInput}
+
+${licenseBadge}
+## Description:
+
+${res.descrInput}
+## Steps:
+
+${res.installInput}
+## Usage Information:
+
+${res.usageInput}
+## Contributors
+
+${res.contribInput}
+## User Guidelines:
+
+${res.guideInput}
+## Test Instructions:
+
+${res.instrucInput}
+`;
+
     fs.writeFile("README.md", readMe, (err) => {
       if (err) throw err;
       console.log("complete");
