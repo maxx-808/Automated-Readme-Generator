@@ -44,6 +44,16 @@ inquirer
       name: "licenseInput",
       choices: ["MIT", "IBM", "Apache"],
     },
+    {
+      type: "input",
+      message: "Github username: ",
+      name: "gitInput",
+    },
+    {
+      type: "input",
+      message: "Email Account: ",
+      name: "emailInput",
+    },
   ])
   .then((res) => {
     console.log(res);
@@ -64,24 +74,61 @@ inquirer
 # ${res.titleInput}
 
 ${licenseBadge}
+
+##Table of Contents
+
+[Description.](#descr)
+
+[steps.](#steps)
+
+[Usage Information.](#usage)
+
+[contributors.](#contrib)
+
+[User Guidelines.](#guide)
+
+[Test Instructions.](#instruc)
+
+[Questions?.](#quest)
+
+<a name="descr"></a>
 ## Description:
 
 ${res.descrInput}
+
+<a name="steps"></a>
 ## Steps:
 
 ${res.installInput}
+
+<a name="usage"></a>
 ## Usage Information:
 
 ${res.usageInput}
+
+<a name="contrib"></a>
 ## Contributors
 
 ${res.contribInput}
+
+<a name="guide"></a>
 ## User Guidelines:
 
 ${res.guideInput}
+
+<a name="instruc"></a>
 ## Test Instructions:
 
 ${res.instrucInput}
+
+<a name="quest"></a>
+##Questions?
+
+You can contact me through:
+
+Github Profile: https://www.github.com/${res.gitInput}
+
+Email Address: ${res.emailInput}
 `;
 
     fs.writeFile("README.md", readMe, (err) => {
