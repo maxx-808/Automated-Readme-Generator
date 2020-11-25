@@ -47,6 +47,18 @@ inquirer
   ])
   .then((res) => {
     console.log(res);
+    let licenseBadge = "";
+    let licenseChoice = res.licenseInput;
+    if (licenseChoice === "MIT") {
+      licenseBadge =
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    } else if (licenseChoice === "IBM") {
+      licenseBadge =
+        "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
+    } else if (licenseChoice === "Apache") {
+      licenseBadge =
+        "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    }
 
     let readMe = `
 # ${res.titleInput}
