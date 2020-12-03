@@ -1,63 +1,71 @@
-# Testing 3 Readme Generator
+
+# s;dlfkjasd;f lkjsadf;l kjsd ;lkjasd ;lksajdf ;lkasdjf ;lkasdjf ;laksdjf ;klasdj f
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-##Table of Contents
+## Table of Contents
 
-[Description](#descr)
+[Description](#description)
 
 [Steps](#steps)
 
-[Usage Information](#usage)
+[Usage Information](#usage-information)
 
-[contributors](#contrib)
+[Contributors](#contributors)
 
-[User Guidelines](#guide)
+[User Guidelines](#user-guidelines)
 
-[Test Instructions](#instruc)
+[Test Instructions](#test-instructions)
 
-[Questions?](#quest)
+[Questions?](#questions?)
 
-<a name="descr"></a>
+
+<a name="description"></a>
 
 ## Description:
 
-This is a project based readme generator. For my homework, we were tasked to build this using node.js, and the end product is to have an app generate a professional looking readme file for your projects.
+asdfj asd
 
 <a name="steps"></a>
 
 ## Steps:
 
-For this to work, you must clone the repo first. Then, npm init the index.js. After that, you need to npm i to get the inquirer downloaded. Finally, going into the develop directory in terminal, type node index.js, this will start the prompts to gather info to put on a readme document.
+ fjaksd fjaskdjf as;ldkfj awpoeifh asl;dfkjvnaewrp;oghj awsr fi asjdd foi jaw efpo iajw efoja sdfg
 
-<a name="usage"></a>
+<a name="usage-information"></a>
 
 ## Usage Information:
 
-This will be used to create a professional and fast way to make a readme for any coding projects you have.
+awserf [aoweifj aws;rlkfjawer[op tiujasdfgvdlk ajwe foasidfjf elrkjjgn asdifh awoeifh a
 
-<a name="contrib"></a>
+<a name="contributors"></a>
 
 ## Contributors
 
-Max Higa
+sdf a[wseofoijhaw f;lahnsfd vda hwsrfhawe foiajhsd fpoiawej rfosdifj aweofj asdpoifjawep oiaewsjf [aosdifj awo[fj awr]foj asd
 
-<a name="guide"></a>
+<a name="user-guidelines"></a>
 
 ## User Guidelines:
 
-Not much if any guidelines. this is the 8th week homework so don't expect much, it is literally just a readme writer for projects.
+f asdjd fpawsodfijhh as[dofijhh aweo fikhjasdpoidgfhj wer;lfn asdfidgfj awdlfjh asdoij aijsd ujasdf osadf ij sdaf ij asdf
 
-<a name="instruc"></a>
+<a name="test-instrucions"></a>
 
 ## Test Instructions:
 
-To test, go to develop directory in terminal, type node index.js. Answer the prompts, then preview README.md file
+aj [ofijaw efojawfoijaw eofijaweoif jaweofj awoeifj awoifj awoepif jasdf;lvkjdxvcpva we,mfncvsvpoawhjfa;lslkf nmva[worefg 
 
-<a name="quest"></a>
-##Questions?
+<a name="questions?"></a>
+
+## Questions?
+
 You can contact me through:
 
-Github Profile: https://www.github.com/maxx-808
+## Github Profile: 
 
-Email Address: maxhiga.hawaii@gmail.com
+https://www.github.com/maxx-808
+
+## Email Address: 
+
+maxhiga.hawaii@gmail.com

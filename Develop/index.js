@@ -75,60 +75,72 @@ inquirer
 
 ${licenseBadge}
 
-##Table of Contents
+## Table of Contents
 
-[Description.](#descr)
+[Description](#description)
 
-[steps.](#steps)
+[Steps](#steps)
 
-[Usage Information.](#usage)
+[Usage Information](#usage-information)
 
-[contributors.](#contrib)
+[Contributors](#contributors)
 
-[User Guidelines.](#guide)
+[User Guidelines](#user-guidelines)
 
-[Test Instructions.](#instruc)
+[Test Instructions](#test-instructions)
 
-[Questions?.](#quest)
+[Questions?](#questions?)
 
-<a name="descr"></a>
+
+<a name="description"></a>
+
 ## Description:
 
 ${res.descrInput}
 
 <a name="steps"></a>
+
 ## Steps:
 
 ${res.installInput}
 
-<a name="usage"></a>
+<a name="usage-information"></a>
+
 ## Usage Information:
 
 ${res.usageInput}
 
-<a name="contrib"></a>
+<a name="contributors"></a>
+
 ## Contributors
 
 ${res.contribInput}
 
-<a name="guide"></a>
+<a name="user-guidelines"></a>
+
 ## User Guidelines:
 
 ${res.guideInput}
 
-<a name="instruc"></a>
+<a name="test-instrucions"></a>
+
 ## Test Instructions:
 
 ${res.instrucInput}
 
-<a name="quest"></a>
-##Questions?
+<a name="questions?"></a>
+
+## Questions?
 
 You can contact me through:
 
-Github Profile: https://www.github.com/${res.gitInput}
+## Github Profile: 
 
-Email Address: ${res.emailInput}
+https://www.github.com/${res.gitInput}
+
+## Email Address: 
+
+${res.emailInput}
 `;
 
     fs.writeFile("README.md", readMe, (err) => {
