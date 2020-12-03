@@ -51,6 +51,11 @@ inquirer
     },
     {
       type: "input",
+      message: "Github deployable URL: ",
+      name: "deployInput",
+    },
+    {
+      type: "input",
       message: "Email Account: ",
       name: "emailInput",
     },
@@ -137,6 +142,10 @@ You can contact me through:
 ## Github Profile: 
 
 https://www.github.com/${res.gitInput}
+
+## Github Deployable URL:
+
+${res.deployInput}
 
 ## Email Address: 
 
