@@ -28,6 +28,9 @@ This project, designed with JavaScript, uses Node and npm package inquirer to cr
 
 ## Steps:
 
+Link to example video:
+https://drive.google.com/file/d/1HSfA-hGGByRVjdDL6_YcOACXZ-aVP284/view?usp=sharing
+
 To install, you must clone repo and npm init this is because node_modules have been gitignored to save time downloading and cloning. Once that is done, you just need to download inquirer using npm install inquirer. After that, you are all set.
 
 <a name="usage-information"></a>
