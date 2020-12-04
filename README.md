@@ -1,5 +1,7 @@
 # Project README Generator
 
+## While being the README.md for this project, this is also a sample of a readme done using this project!
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
